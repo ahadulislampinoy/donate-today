@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+#banner {
+  background-image: url(images/donation13.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  color: white;
+  width: 45%;
+  text-align: center;
+}
+.banner-content h1 {
+  font-size: 50px;
+}
+.banner-content p {
+  padding: 25px 0 50px;
+  width: 88%;
+  margin: 0 auto;
+}
+.banner-content a,
+.donate-today-content a {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+#donate-today,
+#donate-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+.donate-today-content h1,
+.donate-plan-content h1 {
+  font-size: 40px;
+}
+.donate-today-content p,
+.donate-plan-content p {
+  padding: 20px 0 40px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+.amount {
+  justify-content: center;
+  display: flex;
+}
+.amount-number {
+  background-color: #f0f0f0;
+  padding: 30px 0;
+  width: 15%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.amount-number-special {
+  border: 1px solid #ff5959;
+  background-color: #f9d5d5;
+}
+.donate-today-input_button {
+  display: flex;
+  width: 80%;
+  margin: 40px auto;
+  flex-direction: column;
+}
+.donate-today-input_button input {
+  padding: 15px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid gray;
+}
+.donate-today-input_button a {
+  width: 15%;
+  margin: 20px auto;
+}
