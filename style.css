@@ -34,8 +34,7 @@ body {
   padding: 15px 25px;
   border-radius: 5px;
 }
-#donate-today,
-#donate-plan {
+#donate-today {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,8 +45,7 @@ body {
 .donate-plan-content h1 {
   font-size: 40px;
 }
-.donate-today-content p,
-.donate-plan-content p {
+.donate-today-content p {
   padding: 20px 0 40px 0;
   width: 70%;
   margin: 0 auto;
@@ -83,4 +81,35 @@ body {
 .donate-today-input_button a {
   width: 15%;
   margin: 20px auto;
+}
+#donate-plan {
+  text-align: center;
+  padding: 60px 0;
+}
+.donate-plan-content p {
+  padding: 20px 0 40px 0;
+  width: 35%;
+  margin: 0 auto;
+}
+.donate-plan-details {
+  display: flex;
+  justify-content: center;
+}
+.donate-plan-details_single {
+  width: 25%;
+  text-align: start;
+  padding: 40px 20px;
+  margin-right: 15px;
+}
+.donate-plan-details_single h3 {
+  padding: 20px 0;
+}
+.donate-plan-color1 {
+  background-color: rgb(79, 157, 166, 0.15);
+}
+.donate-plan-color2 {
+  background-color: rgb(255, 89, 89, 0.15);
+}
+.donate-plan-color3 {
+  background-color: rgb(255, 244, 214, 0.75);
 }
