@@ -30,7 +30,7 @@ body {
 .donate-today-content a {
   text-decoration: none;
   color: white;
-  background-color: #ff5959;
+  background-color: #d50228f5;
   padding: 15px 25px;
   border-radius: 5px;
 }
@@ -42,7 +42,9 @@ body {
   padding-top: 60px;
 }
 .donate-today-content h1,
-.donate-plan-content h1 {
+.donate-plan-content h1,
+.update-content h1,
+.volunteer-content h1 {
   font-size: 40px;
 }
 .donate-today-content p {
@@ -62,7 +64,7 @@ body {
   border-radius: 5px;
 }
 .amount-number-special {
-  border: 1px solid #ff5959;
+  border: 1px solid #d50228f5;
   background-color: #f9d5d5;
 }
 .donate-today-input_button {
@@ -82,9 +84,10 @@ body {
   width: 15%;
   margin: 20px auto;
 }
-#donate-plan {
+#donate-plan,
+#update {
   text-align: center;
-  padding: 60px 0;
+  padding: 30px 0;
 }
 .donate-plan-content p {
   padding: 20px 0 40px 0;
@@ -112,4 +115,94 @@ body {
 }
 .donate-plan-color3 {
   background-color: rgb(255, 244, 214, 0.75);
+}
+.update-content p {
+  padding: 20px 0 40px 0;
+  width: 40%;
+  margin: 0 auto;
+}
+.update-content-input_button {
+  background-color: #fff4d6;
+  padding: 55px;
+  width: 40%;
+  display: flex;
+  margin: 0 auto;
+
+  justify-content: center;
+}
+.update-content-input_button input {
+  padding: 15px 50px;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.update-content-input_button a {
+  text-decoration: none;
+  background-color: #d50228f5;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  padding: 14px 30px;
+}
+#volunteer {
+  background-image: url(images/volunteer.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding: 15px 0;
+  display: flex;
+  margin: 50px 0;
+}
+.volunteer-content {
+  background-color: #d50228db;
+  padding: 40px;
+  width: 40%;
+  color: white;
+  margin: 15px 0 15px 25px;
+}
+.volunteer-content p {
+  padding: 20px 0 50px;
+}
+.volunteer-form-inputs {
+  padding-bottom: 15px;
+}
+.volunteer-form-inputs-special {
+  margin-right: 15px;
+}
+.volunteer-form-inputs input {
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+}
+#volunteer-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+#volunteer-form textarea {
+  padding: 30px 0 0 35px;
+  border: none;
+  font-size: 16px;
+}
+
+#volunteer-form button {
+  border: none;
+  background-color: #343434;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 14px 30px;
+}
+footer {
+  background-color: #0b0d17;
+  padding: 30px;
+  text-align: center;
+}
+.footer-text h1 {
+  color: #e5032cf5;
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+}
+.footer-text p {
+  color: white;
+  padding-top: 20px;
 }
